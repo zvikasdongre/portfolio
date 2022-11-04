@@ -16,8 +16,8 @@ const SkillsList = () => {
   ]
 
   const langs = [
-    { name: "JavaScript", icon: "/assets/icons/typescript.svg", color: "hover:text-yellow-500" },
-    { name: "TypeScript", icon: "/assets/icons/javascript.svg", color: "hover:text-cyan-500" },
+    { name: "JavaScript", icon: "/assets/icons/javascript.svg", color: "hover:text-yellow-500" },
+    { name: "TypeScript", icon: "/assets/icons/typescript.svg", color: "hover:text-cyan-500" },
     { name: "Python", icon: "/assets/icons/python.svg", color: "hover:text-blue-500" },
     { name: "PHP", icon: "/assets/icons/php.svg", color: "hover:text-violet-500" },
   ]
