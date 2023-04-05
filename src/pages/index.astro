@@ -1,18 +1,18 @@
 ---
-import type { IFrontmatter } from '@/components';
+// import type { IFrontmatter } from '@/components';
 
 import { Hero } from '@/partials/Hero';
 import { SkillsList } from '@/partials/SkillsList';
-import { RecentPosts } from '@/partials/RecentPosts';
+// import { RecentPosts } from '@/partials/RecentPosts';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
+// import { sortByDate } from '@/utils/Posts';
 import { ProjectList } from '@/partials/ProjectList';
 import { Contact } from '@/partials/Contact';
 
-const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
-const sortedPosts = sortByDate(allPosts);
-const lastThreePosts = sortedPosts.slice(0, 3);
+// const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
+// const sortedPosts = sortByDate(allPosts);
+// const lastThreePosts = sortedPosts.slice(0, 3);
 
 const { title } = AppConfig;
 const { description } = AppConfig;
@@ -22,6 +22,6 @@ const { description } = AppConfig;
   <Hero />
   <SkillsList />
   <ProjectList />
-  <RecentPosts postList={lastThreePosts} />
+  <!-- <RecentPosts postList={lastThreePosts} /> -->
   <Contact />
 </Base>

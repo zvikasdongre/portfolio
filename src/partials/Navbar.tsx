@@ -19,9 +19,8 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="/posts">Blogs</NavMenuItem>
         <NavMenuItem href="https://github.com/zvikasdongre">GitHub</NavMenuItem>
-        <NavMenuItem href="https://twitter.com/blaze_droid">Twitter</NavMenuItem>
+        <NavMenuItem href="https://twitter.com/zvikasdongre">Twitter</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
