@@ -15,12 +15,38 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
+
+      <Project
+        name="0x001 Cloud Website"
+        description="0x001 Cloud is a powerful, affordable, and fast hosting service available. With our custom hardware, we can get the most performance."
+        link="https://0x001.cloud"
+        img={{ src: '/assets/images/0x001-cloud.webp', alt: '0x001 Cloud Website' }}
+        category={
+          <>
+            <Tags color={ColorTags.EMERALD}>Website</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Lightning Hosting Website"
+        description="Lightning Hosting is a Cheap, Reliable and Fast Game Hosting Platform."
+        link="https://lightning-hosting.eu"
+        img={{ src: '/assets/images/lightning-hosting.webp', alt: 'Lightning Hosting Website' }}
+        category={
+          <>
+            <Tags color={ColorTags.EMERALD}>Website</Tags>
+            <Tags color={ColorTags.PURPLE}>Paymenter.org</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+          </>
+        }
+      />
       <Project
         name="MC Status"
         description="This app is made to check the status of minecraft servers, You can check the server's status almost instantly and without any cache."
         link="https://mcstatus.vercel.app"
         img={{
-          src: '/assets/images/mcstatus.png',
+          src: '/assets/images/mcstatus.webp',
           alt: 'MC Status',
         }}
         category={
@@ -35,31 +61,16 @@ const ProjectList = () => (
       <Project
         name="CPGG Themes"
         description="These are some themes I made for ControlPanel.gg software."
-        link="https://market.controlpanel.gg/resources/author/24-blaze/"
-        img={{ src: '/assets/images/theme.png', alt: 'CPGG Themes' }}
+        link="https://market.ctrlpanel.gg/resources/author/24-blaze/"
+        img={{ src: '/assets/images/theme.webp', alt: 'CPGG Themes' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>ControlPanel.gg</Tags>
+            <Tags color={ColorTags.BLUE}>ControlPanel.gg</Tags>
             <Tags color={ColorTags.EMERALD}>Themes</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
           </>
         }
       />
-      {/* <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
-          </>
-        }
-      /> */}
     </div>
   </Section>
 );

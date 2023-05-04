@@ -15,8 +15,8 @@ const Hero = () => (
       }
       description={
         <>
-          I am a self-taught Web Developer. I have a passion for learning new technologies and building things
-				that are useful to people. I am currently working on my portfolio as a Web Developer.
+          I am a self-taught Full-Stack Developer. I have a passion for learning new technologies and building things
+          that are useful to people. I am currently working as a Freelancer and Contributor on various projects.
           {/* <a className="text-amber-400 hover:underline" href="/">
             malesuada
           </a>{' '}

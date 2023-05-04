@@ -33,35 +33,34 @@ type ITagsProps = {
 };
 
 const colorToClassMap = {
-  [ColorTags.SLATE]: 'bg-zinc-400 text-zinc-900',
-  [ColorTags.GRAY]: 'bg-gray-400 text-gray-900',
-  [ColorTags.ZINC]: 'bg-zinc-400 text-zinc-900',
-  [ColorTags.NEUTRAL]: 'bg-neutral-400 text-neutral-900',
-  [ColorTags.STONE]: 'bg-stone-400 text-stone-900',
-  [ColorTags.RED]: 'bg-red-400 text-red-900',
-  [ColorTags.ORANGE]: 'bg-orange-400 text-orange-900',
-  [ColorTags.AMBER]: 'bg-amber-400 text-amber-900',
-  [ColorTags.YELLOW]: 'bg-yellow-400 text-yellow-900',
-  [ColorTags.LIME]: 'bg-lime-400 text-lime-900',
-  [ColorTags.GREEN]: 'bg-green-400 text-green-900',
-  [ColorTags.EMERALD]: 'bg-emerald-400 text-emerald-900',
-  [ColorTags.TEAL]: 'bg-teal-400 text-teal-900',
-  [ColorTags.CYAN]: 'bg-amber-400 text-amber-900',
-  [ColorTags.SKY]: 'bg-sky-400 text-sky-900',
-  [ColorTags.BLUE]: 'bg-blue-400 text-blue-900',
-  [ColorTags.INDIGO]: 'bg-indigo-400 text-indigo-900',
-  [ColorTags.VIOLET]: 'bg-violet-400 text-violet-900',
-  [ColorTags.PURPLE]: 'bg-purple-400 text-purple-900',
-  [ColorTags.FUCHSIA]: 'bg-fuchsia-400 text-fuchsia-900',
-  [ColorTags.PINK]: 'bg-pink-400 text-pink-900',
-  [ColorTags.ROSE]: 'bg-rose-400 text-rose-900',
+  [ColorTags.SLATE]: 'bg-zinc-800/50 text-zinc-400',
+  [ColorTags.GRAY]: 'bg-gray-800/50 text-gray-400',
+  [ColorTags.ZINC]: 'bg-zinc-800/50 text-zinc-400',
+  [ColorTags.NEUTRAL]: 'bg-neutral-800/50 text-neutral-400',
+  [ColorTags.STONE]: 'bg-stone-800/50 text-stone-400',
+  [ColorTags.RED]: 'bg-red-800/50 text-red-400',
+  [ColorTags.ORANGE]: 'bg-orange-800/50 text-orange-400',
+  [ColorTags.AMBER]: 'bg-amber-800/50 text-amber-400',
+  [ColorTags.YELLOW]: 'bg-yellow-800/50 text-yellow-400',
+  [ColorTags.LIME]: 'bg-lime-800/50 text-lime-400',
+  [ColorTags.GREEN]: 'bg-green-800/50 text-green-400',
+  [ColorTags.EMERALD]: 'bg-emerald-800/50 text-emerald-400',
+  [ColorTags.TEAL]: 'bg-teal-800/50 text-teal-400',
+  [ColorTags.CYAN]: 'bg-amber-800/50 text-amber-400',
+  [ColorTags.SKY]: 'bg-sky-800/50 text-sky-400',
+  [ColorTags.BLUE]: 'bg-blue-800/50 text-blue-400',
+  [ColorTags.INDIGO]: 'bg-indigo-800/50 text-indigo-400',
+  [ColorTags.VIOLET]: 'bg-violet-800/50 text-violet-400',
+  [ColorTags.PURPLE]: 'bg-purple-800/50 text-purple-400',
+  [ColorTags.FUCHSIA]: 'bg-fuchsia-800/50 text-fuchsia-400',
+  [ColorTags.PINK]: 'bg-pink-800/50 text-pink-400',
+  [ColorTags.ROSE]: 'bg-rose-800/50 text-rose-400',
 };
 
 const Tags = (props: ITagsProps) => (
   <div
-    className={`rounded-md px-2 py-1 text-xs font-semibold ${
-      colorToClassMap[props.color]
-    }`}
+    className={`rounded-md px-2 py-1 text-xs font-semibold ${colorToClassMap[props.color]
+      }`}
   >
     {props.children}
   </div>
